@@ -4,36 +4,6 @@ import './EmployeeList.css'
 import { myContext } from '../../App';
 
 const EmployeeList = () => {
-    // const employees = [
-    //     {
-    //       id: 1,
-    //       name: "John Doe",
-    //       email: "john@example.com",
-    //       role: "Developer",
-    //       active: true,
-    //       designation: "Software Engineer",
-    //       dateOfBirth: "1990-05-15"
-    //     },
-    //     {
-    //       id: 2,
-    //       name: "Jane Smith",
-    //       email: "jane@example.com",
-    //       role: "Manager",
-    //       active: false,
-    //       designation: "Project Manager",
-    //       dateOfBirth: "1985-10-20"
-    //     },
-    //     {
-    //       id: 3,
-    //       name: "Alice Johnson",
-    //       email: "alice@example.com",
-    //       role: "Designer",
-    //       active: true,
-    //       designation: "UI/UX Designer",
-    //       dateOfBirth: "1993-02-28"
-    //     }
-    //   ];
-
     const { jwtToken } = useContext(myContext)
 
     const [employees, setEmployees] = useState([]);
